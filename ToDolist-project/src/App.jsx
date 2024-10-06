@@ -3,8 +3,6 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tasks from "./Tasks";
 
-//todo app
-
 function App() {
   const [taskinput, setTaskinput] = useState("");
   const [tasks, setTasks] = useState([]); // Array to store multiple tasks
