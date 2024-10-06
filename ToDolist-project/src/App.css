@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(228, 249, 249) !important;
+}
+
+#Heading {
+  font-size: 204%;
+  font-weight: 600;
+}
+
+#layout {
+  border-radius: 8px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 100px;
+  box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  height: 45px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+#Add_btn {
+  width: 90px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+#layout2 {
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-left: 165px;
+  margin-right: 165px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+#btn2 {
+  height: 34px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-left: 96px !important;
+}
+
+h5 {
+  margin-left: -30px;
+  padding-top: 4px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Mobile Devices */
+@media only screen and (max-width: 480px) {
+  #Heading {
+    font-size: 1.5rem; /* Adjust font size for mobile */
+  }
+
+  #layout {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px; /* Reduce top margin on mobile */
+  }
+
+  #layout2 {
+    margin-left: 10px; /* Reduce side margins on mobile */
+    margin-right: 10px;
+
+    /* Add padding for better spacing */
+  }
+
+  input {
+    width: calc(100% - 20px); /* Full width on mobile */
+  }
+
+  #Add_btn {
+    font-size: larger;
+    margin-top: 30px;
+    margin-left: -2px;
+  }
+
+  #btn2 {
+    margin-left: auto;
+    margin-right: auto;
+
+    align-items: center;
+    /* Center button on small screens */
+  }
+
+  h5 {
+    margin-left: -25px !important;
+    /* Adjust margins for smaller screens */
+  }
+}
+
+/* Tablets and Small Screens */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  #Heading {
+    font-size: 1.75rem; /* Slightly larger font for tablets */
+  }
+
+  #layout,
+  #layout2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  input {
+    width: calc(100% -20px); /* Full width on tablets */
+  }
+}
